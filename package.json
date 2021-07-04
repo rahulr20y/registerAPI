@@ -1,0 +1,21 @@
+{
+  "name": "register-express",
+  "version": "1.0.0",
+  "description": "API for registration or sign-up/sign-in",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
+}
